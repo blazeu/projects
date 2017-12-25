@@ -1,0 +1,35 @@
+backend:
+  name: git-gateway
+  repo: blazeu/projects
+  branch: netlify-cms
+
+publish_mode: editorial_workflow
+media_folder: "resources/images"
+
+collections:
+  - name: "projects"
+    label: "Projects"
+    folder: "_projects"
+    sort: "name:asc"
+    create: true
+    slug: "{{markdown}}"
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Description", name: "desc", widget: "string"}
+      - {label: "Difficulty", name: "difficulty", widget: "string"}
+      - {label: "Initiatives", name: "initiatives", widget: "list"}
+      - {label: "Collaborating Projects", name: "collaborating_projects", widget: "list"}
+      - label: "Issues"
+        name: "issues"
+        widget: "list"
+        field:
+          - {label: Issue Link, widget: "string"}
+      - {label: "Mentors", name: "mentors", widget: "list"}
+      - label: "Requirements"
+        name: "requirements"
+        widget: "list"
+        field:
+          - {label: Requirement, widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Markdown", name: "markdown", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
