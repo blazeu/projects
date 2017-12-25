@@ -1,29 +1,35 @@
 ---
-collaborating_projects:
-  - coala
-desc: "This project is about collecting bears based on aspects that the user wants to have checked."
-developers_involved: []
+name: Implement Aspects Support
+desc: >-
+  This project is about collecting bears based on aspects that the user wants to
+  have checked.
 difficulty: high
-status: completed
 initiatives:
   - GSoC
   - RGSoC
-issues: []
-markdown: implement_aspects.md
+collaborating_projects:
+  - coala
 mentors:
   - userzimmermann
   - jayvdb
   - myint
-name: "Implement Aspects Support"
+developers_involved: []
+issues: []
 requirements:
-  - "The participant should have one patch to any bear accepted."
-  - "The participant should have one patch to the coala core accepted."
-  - "The participant should have a solid understanding of [cEP-0005](https://github.com/coala/cEPs/blob/master/cEP-0005.md)."
-  - "The participant should have a solid understanding of [cEP-0002](https://github.com/coala/cEPs/blob/master/cEP-0002.md)."
+  - The participant should have one patch to any bear accepted.
+  - The participant should have one patch to the coala core accepted.
+  - >-
+    The participant should have a solid understanding of
+    [cEP-0005](https://github.com/coala/cEPs/blob/master/cEP-0005.md).
+  - >-
+    The participant should have a solid understanding of
+    [cEP-0002](https://github.com/coala/cEPs/blob/master/cEP-0002.md).
 tags:
   - Core
   - Bears
   - Aspects
+status: crowded
+markdown: implement_aspects.md
 ---
 
 coala offers quite a number of bears to its users, many of them wrapping
